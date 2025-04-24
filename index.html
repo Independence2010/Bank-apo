@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>My apo</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Login to Your Bank</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome, <span id="user-name">User</span></h2>
+    <h3>Balance: $<span id="balance">1000</span></h3>
+
+    <h4>Transfer Money</h4>
+    <input type="text" id="recipient" placeholder="Recipient Name">
+    <input type="number" id="amount" placeholder="Amount">
+    <button onclick="transfer()">Send</button>
+
+    <h4>Transaction History</h4>
+    <ul id="history"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
